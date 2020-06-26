@@ -1,3 +1,4 @@
+name: WEPexampleExtension
 main: io.github.SebastianDanielFrenz.WEPexampleExtension.ExampleExtension
 version: 0.0.1
 depend: [WorldEconomy]
