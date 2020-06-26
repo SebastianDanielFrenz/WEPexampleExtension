@@ -5,13 +5,13 @@ import io.github.SebastianDanielFrenz.WorldEconomyPlugin.api.WorldEconomyExtensi
 public class ExampleExtension extends WorldEconomyExtension {
 
 	@Override
-	public void init() {
-		getLogger().info("Loading...");
+	public void onEnable() {
+		getLogger().info("Bukkit is enabling the plugin...");
 	}
 
 	@Override
 	public void constructionEvent() {
-		
+		getLogger().info("Modifying WorldEcomomy...");
 	}
 
 }
