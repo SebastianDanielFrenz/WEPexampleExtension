@@ -12,6 +12,8 @@ public class ExampleExtension extends WorldEconomyExtension {
 	@Override
 	public void constructionEvent() {
 		getLogger().info("Modifying WorldEcomomy...");
+
+		// register items, blocks and other WEP stuff here
 	}
 
 }
